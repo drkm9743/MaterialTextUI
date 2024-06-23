@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+body {
+    display: none;
+    background-color: #12121200;
+    color: #E0E0E0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.textui {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 58%;
+    bottom: 45%;
+    transform: translate(-50%, -50%);
+    align-items: center;
+    gap: 12px;
+}
+
+.input {
+    background-color: #1E1E1E;
+    border-radius: 4px;
+    padding: 4px 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+
+.icono {
+    color: #E0E0E0;
+    margin-bottom: 2px;
+    margin-right: 8px;
+}
+
+.tecla {
+    color: #E0E0E0;
+    margin-bottom: -0.8px;
+}
+
+.material-icons {
+    color: #E0E0E0;
+    font-size: 16px;
+}
+
+.texto {
+    background-color: transparent;
+    color: #E0E0E0;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    text-shadow: 2px 2px 2px #030303;
+    margin-top: 8px;
+    position: relative;
+    top: -4px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
